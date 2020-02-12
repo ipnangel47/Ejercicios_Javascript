@@ -1,0 +1,28 @@
+Initialize engine version: 5.4.0f3 (a6d8d714de6f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 6250 Graphics             (ID=0x9804)
+    Vendor:   ATI
+    VRAM:     1009 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Angel\Downloads\[ PC ]\Proyectos\1) Cursos\1) HTML, CSS, JavaScript\- Para GitHub\4-Juego_Laberinto_en_Unity\Start_Laberinto_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Angel\Downloads\[ PC ]\Proyectos\1) Cursos\1) HTML, CSS, JavaScript\- Para GitHub\4-Juego_Laberinto_en_Unity\Start_Laberinto_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Angel\Downloads\[ PC ]\Proyectos\1) Cursos\1) HTML, CSS, JavaScript\- Para GitHub\4-Juego_Laberinto_en_Unity\Start_Laberinto_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Angel\Downloads\[ PC ]\Proyectos\1) Cursos\1) HTML, CSS, JavaScript\- Para GitHub\4-Juego_Laberinto_en_Unity\Start_Laberinto_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Angel\Downloads\[ PC ]\Proyectos\1) Cursos\1) HTML, CSS, JavaScript\- Para GitHub\4-Juego_Laberinto_en_Unity\Start_Laberinto_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Angel\Downloads\[ PC ]\Proyectos\1) Cursos\1) HTML, CSS, JavaScript\- Para GitHub\4-Juego_Laberinto_en_Unity\Start_Laberinto_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Angel\Downloads\[ PC ]\Proyectos\1) Cursos\1) HTML, CSS, JavaScript\- Para GitHub\4-Juego_Laberinto_en_Unity\Start_Laberinto_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Angel\Downloads\[ PC ]\Proyectos\1) Cursos\1) HTML, CSS, JavaScript\- Para GitHub\4-Juego_Laberinto_en_Unity\Start_Laberinto_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Angel\Downloads\[ PC ]\Proyectos\1) Cursos\1) HTML, CSS, JavaScript\- Para GitHub\4-Juego_Laberinto_en_Unity\Start_Laberinto_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Angel\Downloads\[ PC ]\Proyectos\1) Cursos\1) HTML, CSS, JavaScript\- Para GitHub\4-Juego_Laberinto_en_Unity\Start_Laberinto_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.634 seconds
+Platform assembly: C:\Users\Angel\Downloads\[ PC ]\Proyectos\1) Cursos\1) HTML, CSS, JavaScript\- Para GitHub\4-Juego_Laberinto_en_Unity\Start_Laberinto_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Angel\Downloads\[ PC ]\Proyectos\1) Cursos\1) HTML, CSS, JavaScript\- Para GitHub\4-Juego_Laberinto_en_Unity\Start_Laberinto_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 47.534771 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: e10 -> priority: 1 

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+			<!--
+				Agregamos soporte a caracteres especiales
+			-->
+
+		<title> Ejercicio Canvas Externo </title>
+
+		<style type="text/css">
+			body
+			{
+				background-color: #eaeaea;
+				color: #474747;
+				font-family: Arial;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h2> Ejercicio con archivos externos </h2>
+		<h1> Inicio de canvas </h1>
+		<h3> (480 x 272 px) </h3>
+
+		<canvas width="480" height="272"  id="canvasHTML"> </canvas>
+		<!--
+			Creamos un canvas. Definimos su tamaño y un id 
+			para usarlo desde un script JS
+		-->
+
+		<script src="Script_Canvas.js"> </script>
+		<!--
+			En lugar de definir aqui el Script, lo colocamos
+			en un archivo independiente y lo llamamos desde
+			aqui (src => source)
+		-->
+
+		<h2> Fin de canvas </h2>
+
+	</body>
+</html>

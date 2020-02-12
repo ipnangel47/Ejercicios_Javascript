@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+	Calculadora espacial
+	El usuario ingresa su peso y constante de gravedad,
+	y el programa calcula su peso con esa gravedad
+-->
+
+<html>
+	<head>
+		<title> Calculadora espacial </title>
+		<style type="text/CSS">
+			body
+			{
+				background-color: #eaeaea;	/* Color de fondo */
+				color:            #474747;	/* Color de letra */
+				font-family:        Arial;	/* Tipo de letra */
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<!-- Aqui va el contenido HTML -->
+
+		<script type="text/JavaScript">
+
+			// Variables que usaremos, y sus valores default-----------
+				var nombre	   = "amigo";
+				var peso;
+				var g;	// variable para usar en la formula del peso
+				var g_Tierra   =   9.8;
+				/*
+				// Constantes de gravedad de los plaentas
+				// LAS USAREMOS DESPUES!!!
+				var g_Mercurio =   2.8;
+				var g_Venus    =   8.9;
+				var g_Luna     =   1.6;
+				var g_Marte    =   3.7;
+				var g_Jupiter  =  22.9;
+				var g_Saturno  =   9.1;
+				var g_Urano    =   7.8;
+				var g_Neptuno  =  11.0;
+				var g_Otro     =   0.0;
+				*/
+
+
+			// Vamos a pedirle datos al usuario------------------------
+				nombre = prompt("Hola!\nComo te llamas?"); // "\n" = salto de linea
+				peso   = prompt("¿Cuantos kilos pesas?");
+				g      = prompt("Constante de gravedad:");
+			
+
+			// A hacer cuentas ---------------------------------------
+				/*
+					Convertimos los posibles enteros ingresados por
+					el usuario a float (numeros con decimales)
+					antes de`ponernos a hacer cuentas`
+				*/
+				peso = parseFloat(peso);
+				g    = parseFloat(g);
+				/*
+					Calculamos el peso final
+				*/
+				peso = ( peso * g ) / g_Tierra; 
+
+
+			// ¡Y a imprimir los resultados! -------------------------
+				/*
+					Redondeamos los decimales para un mejor aspecto
+				*/
+				peso = peso.toFixed(2); 
+				g    = g.toFixed(1);
+				/*
+					Imprimimos resultados finales.
+					Usamos h1, h2 y h3 como etiquetas HTML
+					para cambiar el tamaño de letra y dar mejor acabado
+				*/
+				document.write(" <h1> ¡Oye " + nombre + "! </h1> ");
+				document.write(" <h2> Pesarias " + peso + " kg </h2> ");
+				document.write(" <h4> si la gravedad fuera de " + g + " m/s^2 </h4> ");
+
+		</script>
+	</body>
+
+</html>
